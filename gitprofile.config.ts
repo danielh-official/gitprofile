@@ -39,7 +39,19 @@ const CONFIG = {
       },
     },
     external: {
-        display: true,
+        header: 'Some Closed-Source Projects',
+        'projects': [
+            {
+                title: 'Watchdog 2',
+                description: 'A product made for Solar Reviews. Handles capturing web form interactions for lead compliance purposes.',
+                link: 'https://watchdog-2.com',
+            },
+            {
+                title: 'Wake Up, Get Up',
+                description: 'An iOS app for tracking the time between waking up and getting out of bed',
+                link: 'https://departures.to/apps/19658'
+            }
+        ]
     },
   },
   seo: { title: 'Portfolio of Daniel Haven', description: '', imageURL: '' },
